@@ -1,6 +1,6 @@
-#include <stddef.h>
+#include "libft.h"
 
-char    *strnstr(const char *s, const char *find, size_t len)
+char    *ft_strnstr(const char *s, const char *find, size_t len)
 {
     
 }

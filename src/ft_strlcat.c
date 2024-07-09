@@ -1,4 +1,4 @@
-#include <stddef.h>
+#include "libft.h"
 
 size_t  ft_strlcat(char *dst, const char *src, size_t size)
 {
@@ -16,5 +16,5 @@ size_t  ft_strlcat(char *dst, const char *src, size_t size)
     dst[index] = '\0';
     while (src[lensrc])
         lensrc++;
-    return lensrc + lendst;
+    return (lensrc + lendst);
 }
